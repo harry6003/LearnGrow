@@ -1,0 +1,391 @@
+.backgroundoflogincontainer {
+    background-color: #FFC300;
+    height: 100vh;
+    width: 100vw;
+}
+
+.outercontainerlogin {
+    background-color: rgb(66, 66, 66);
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 130px;
+    left: 330px;
+    padding: 50px 20px;
+    border-radius: 10px;
+}
+
+.rightpartlogin {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.logindetails {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.containerofloginpass {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.headingoflogin,
+.username,
+.password,
+.submitbutton {
+    margin-bottom: 25px;
+}
+
+.headingoflogin {
+    letter-spacing: 0.5px;
+}
+
+.inputlogin {
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+
+.submitbutton {
+    margin: 0 auto;
+}
+
+.loginbutton {
+    background-color: yellow;
+    padding: 5px 20px;
+}
+
+.outernavbar {
+    background-color: #5333ed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 10vh; */
+    color: white;
+    padding: 0 20px;
+    align-items: center;
+}
+
+.leftnavbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.leftnavbar img {
+    /* height: 70px; */
+    width: 45px;
+}
+
+.leftnavbar h1 {
+    margin-left: 20px;
+}
+
+.headingofclasses {
+    padding-top: 10px;
+    text-align: center;
+    /* color: rgb(66, 66, 66); */
+    color: white;
+}
+
+#avatarpng {
+    background-color: black;
+    ;
+    border-radius: 70%;
+}
+
+.outerbottomofnavbar {
+    background-color: #4e5353;
+    width: 100vw;
+    height: 43.1rem;
+}
+
+.classescontainer {
+    background-color: #4e5353;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.classes {
+    flex-basis: auto;
+    background-color: #FFC300;
+    display: inline-block;
+    /* margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 140px; */
+    margin: 50px 80px 0px 80px;
+    padding: 100px;
+    border-radius: 20px;
+    font-size: x-large;
+    font-weight: 700;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    transition: transform 1s ease-in-out;
+    cursor: pointer;
+}
+
+.subjectcard {
+    text-decoration: none;
+    color: #5333EE;
+}
+
+.classes:hover {
+    transform: scale(1.1);
+}
+
+.collegeheader {
+    text-align: center;
+}
+
+.allabout {}
+
+.infoaboutdepartment {}
+
+.navbarlinks {
+    background-color: #FFC300;
+    margin-right: 80px;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* 
+
+
+.bottomofnavbar {
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.classes {
+   
+    padding: 40px;
+  
+    text-align: center;
+    margin: 10px;
+    width: 99vw;
+    flex: 1 1 30%;
+} */
+
+.img-content::before {
+    position: absolute;
+    background: url('./components/background.jpg') no-repeat center center/cover;
+    height: 95%;
+    content: "";
+    top: 70px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.8; */
+}
+
+.img-content {
+    margin-top: 255px;
+    margin-left: 20px;
+}
+
+.home-container {
+    color: white;
+}
+
+#features {
+    margin-top: 355px;
+    margin-left: 130px;
+}
+
+.fas {
+    color: #5333EE;
+    margin: auto;
+}
+
+.feature-column {
+    text-align: center;
+}
+
+.feature-p {
+    color: #04043a;
+    width: 60%;
+    margin: auto;
+}
+
+.cros {
+    margin: 100px auto 0 auto;
+    height: 540px;
+    width: 60%;
+}
+
+.cros-btn {
+    color: black;
+}
+
+.button {
+    background-color: #5333EE;
+    color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 10px 80px;
+    font-size: 25px;
+}
+
+
+/* about us */
+
+.aboutusheading {
+    text-align: center;
+    color: #5333ed;
+    font-size: xx-large;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.mission {
+    background-color: #4e5353;
+    color: aliceblue;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.ourmission {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.aboutourmission {
+    text-align: center;
+    padding: 40px 40px 0 40px;
+}
+
+.headingofaboutourmission {
+    color: #FFC300;
+}
+
+.devlopers {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.devloper {
+    border: 2px solid #4e5353;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.devloper>img {
+    height: 200px;
+    width: 200px;
+    margin: 10px auto;
+}
+
+.devloper p {
+    margin: 0 20px 40px 20px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: center;
+}
+
+.socialmedia a {
+    margin: 0 50px 50px 50px;
+}
+
+.socialmedia img {
+    width: 50px;
+    height: 50px;
+}
+
+.nameofdevloper {
+    text-align: center;
+    color: #5333ed;
+}
+
+
+/* Every Subject  */
+
+.s-container {
+    background-color: #bac0dc;
+    background: url("https://media.istockphoto.com/photos/colorful-pencils-white-papers-and-metal-pencil-sharpener-empty-place-picture-id925244914?k=6&m=925244914&s=612x612&w=0&h=OPpMVvrskx7VuBHlXTXrZx5u_Sxe2miXNo-8i90iaJc=") no-repeat center center/cover;
+}
+
+.heading-sub {
+    padding: 33px;
+    color: #0b123d;
+    text-align: center;
+    font-family: 'Ruluko', sans-serif;
+    font-weight: 900;
+    padding-bottom: 6px;
+    margin-left: 375px;
+}
+
+.des-para {
+    color: #29350a;
+    font-size: 18px;
+    padding: 15px 90px;
+    text-align: center;
+    margin-left: 375px;
+}
+
+.sitems {
+    width: 33.4%;
+    text-align: center;
+}
+
+.nav-sublink {
+    text-decoration: none;
+    color: #ccbee3;
+    font-size: 28px;
+    font-weight: 600;
+    background-color: #23236a;
+    border: 2px solid #e8e3f1;
+}
+
+a.active-link {
+    text-decoration: underline;
+}
+
+.BLR {
+    background-color: #23236a;
+    border: 2px solid #e8e3f1;
+    text-decoration: none;
+    color: #ccbee3;
+    font-size: 28px;
+    font-weight: 600;
+    padding: 10px 206px;
+}
+
+.STUDYREF {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.listofitems {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
